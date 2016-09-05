@@ -323,10 +323,21 @@
         <Button
             android:layout_width="119dp"
             android:layout_height="match_parent"
-            android:text="মুছুন"
-            android:textSize="20dp"
+            android:textSize="40dp"
+            android:text="."
+            android:paddingBottom="20dp"
             android:id="@+id/buttonclear"
             android:onClick="clear"
-            android:background="#f0aa5f" />
+            android:background="@drawable/button_shape" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="মুছুন"
+            android:paddingBottom="10dp"
+            android:textSize="25dp"
+            android:background="@drawable/button_shape"
+            android:id="@+id/button" />
+
     </LinearLayout>
 </LinearLayout>
